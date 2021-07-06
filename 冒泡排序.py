@@ -4,6 +4,7 @@
 import random
 import time
 nums = []
+
 for i in range(0, 1000):
     num = random.randint(0, 10000)
     nums.append(num)
