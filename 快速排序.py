@@ -27,7 +27,7 @@ def qck_sort(ary):
         #  倒序 return qck_sort(gtr) + [pot] + qck_sort(les)
     return []
 
-
+# 运行时间
 start = time.time()
 print(qck_sort(nums))
 end = time.time()
