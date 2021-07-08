@@ -5,8 +5,8 @@ import random
 import time
 nums = []
 
-for i in range(0, 1000):
-    num = random.randint(0, 10000)
+for i in range(0, 10000):
+    num = random.randint(0, 1000000)
     nums.append(num)
 start = time.time()
 n = len(nums)
@@ -16,6 +16,5 @@ for i in range(n-1):
             nums1 = nums[j]
             nums[j] = nums[j+1]
             nums[j+1] = nums1
-print(nums)
 end = time.time()
 print(end-start)
