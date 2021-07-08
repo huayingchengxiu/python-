@@ -5,10 +5,10 @@ import random
 import time
 
 nums = []
-# 1.循环100次
+# 1.循环10000次
 for i in range(0, 10000):
     # 2.生成随机数的范围
-    num = random.randint(0, 100000)
+    num = random.randint(0, 1000000)
     # 3.添加到列表中
     nums.append(num)
 
@@ -29,6 +29,6 @@ def qck_sort(ary):
 
 # 运行时间
 start = time.time()
-print(qck_sort(nums))
+qck_sort(nums)
 end = time.time()
 print(end-start)
